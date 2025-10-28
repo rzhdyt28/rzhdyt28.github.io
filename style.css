@@ -1,5 +1,5 @@
 /* Google Font CDN Link */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap");
 
 * {
   margin: 0;
@@ -35,7 +35,7 @@ nav {
   padding: 20px 0;
   z-index: 998;
   transition: all 0.3s ease;
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
 }
 
 nav.sticky {
@@ -74,7 +74,7 @@ nav .navbar .menu li {
 .navbar .menu a {
   font-size: 18px;
   font-weight: 500;
-  color: #0E2431;
+  color: #0e2431;
   padding: 6px 0;
   transition: all 0.4s ease;
 }
@@ -84,11 +84,11 @@ nav .navbar .menu li {
 }
 
 nav.sticky .menu a {
-  color: #FFF;
+  color: #fff;
 }
 
 nav.sticky .menu a:hover {
-  color: #0E2431;
+  color: #0e2431;
 }
 
 .navbar .media-icons a {
@@ -98,7 +98,7 @@ nav.sticky .menu a:hover {
 }
 
 nav.sticky .media-icons a {
-  color: #FFF;
+  color: #fff;
 }
 
 /* Side Navigation Menu Button CSS */
@@ -119,7 +119,7 @@ nav .menu-btn {
 }
 
 nav.sticky .menu-btn {
-  color: #FFF;
+  color: #fff;
 }
 
 .navbar .menu .menu-btn {
@@ -134,7 +134,7 @@ nav.sticky .menu-btn {
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
 }
 
 .home .home-content {
@@ -148,11 +148,11 @@ nav.sticky .menu-btn {
 
 .home .text-one {
   font-size: 25px;
-  color: #0E2431;
+  color: #0e2431;
 }
 
 .home .text-two {
-  color: #0E2431;
+  color: #0e2431;
   font-size: 75px;
   font-weight: 600;
   margin-left: -3px;
@@ -167,7 +167,7 @@ nav.sticky .menu-btn {
 .home .text-four {
   font-size: 23px;
   margin: 5px 0;
-  color: #0E2431;
+  color: #0e2431;
 }
 
 .home .button {
@@ -203,7 +203,7 @@ section {
 section .content {
   width: 80%;
   margin: 40px auto;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .about .about-details {
@@ -219,7 +219,7 @@ section .title {
 }
 
 section .title span {
-  color: #0E2431;
+  color: #0e2431;
   font-size: 30px;
   font-weight: 600;
   position: relative;
@@ -228,7 +228,7 @@ section .title span {
 
 section .title span::before,
 section .title span::after {
-  content: '';
+  content: "";
   position: absolute;
   height: 3px;
   width: 100%;
@@ -260,7 +260,7 @@ section .title span::after {
 }
 
 section .topic {
-  color: #0E2431;
+  color: #0e2431;
   font-size: 25px;
   font-weight: 500;
   margin-bottom: 10px;
@@ -268,7 +268,7 @@ section .topic {
 
 .about-details .right p {
   text-align: justify;
-  color: #0E2431;
+  color: #0e2431;
 }
 
 section .button {
@@ -296,7 +296,7 @@ section .button button:hover {
 
 /* My Skills CSS */
 .skills {
-  background: #F0F8FF;
+  background: #f0f8ff;
 }
 
 .skills .content {
@@ -314,7 +314,7 @@ section .button button:hover {
 }
 
 .skills-details p {
-  color: #0E2431;
+  color: #0e2431;
   text-align: justify;
 }
 
@@ -325,12 +325,12 @@ section .button button:hover {
 }
 
 .skills-details .experience .num {
-  color: #0E2431;
+  color: #0e2431;
   font-size: 80px;
 }
 
 .skills-details .experience .exp {
-  color: #0E2431;
+  color: #0e2431;
   margin-left: 20px;
   font-size: 18px;
   font-weight: 500;
@@ -402,7 +402,7 @@ section .button button:hover {
 
 .services .boxes .box:hover .topic,
 .services .boxes .box:hover p {
-  color: #0E2431;
+  color: #0e2431;
   transition: all 0.4s ease;
 }
 
@@ -413,7 +413,7 @@ section .button button:hover {
 
 /* Contact Me CSS */
 .contact {
-  background: #F0F8FF;
+  background: #f0f8ff;
 }
 
 .contact .content {
@@ -432,7 +432,7 @@ footer {
   background: #4070f4;
   padding: 15px 0;
   text-align: center;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 footer .text span {
@@ -443,7 +443,7 @@ footer .text span {
 
 footer .text span a {
   font-weight: 500;
-  color: #FFF;
+  color: #fff;
 }
 
 footer .text span a:hover {
@@ -458,7 +458,6 @@ footer .text span a:hover {
   color: #fff;
   background: #4070f4;
   padding: 7px 12px;
-  ;
   font-size: 18px;
   border-radius: 6px;
   box-shadow: rgba(0, 0, 0, 0.15);
@@ -511,7 +510,7 @@ footer .text span a:hover {
     position: fixed;
     left: -100%;
     top: 0;
-    background: #0E2431;
+    background: #0e2431;
     height: 100vh;
     max-width: 400px;
     width: 100%;
